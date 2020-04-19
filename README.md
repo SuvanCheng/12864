@@ -1,23 +1,23 @@
-# 12864´®ÐÐÏÔÊ¾(stm32)
+# 12864ä¸²è¡Œæ˜¾ç¤º(stm32)
 
 
 
-##  ´®ÐÐ½Ó·¨
+##  ä¸²è¡ŒæŽ¥æ³•
 
-![](/img/´®ÐÐ½Ó·¨.png)
+![](/reference/ä¸²è¡ŒæŽ¥æ³•.png)
 
+<img src="/Users/allen/Documents/GitHub/12864/reference/ä¸²è¡ŒæŽ¥æ³•.png" alt="ä¸²è¡ŒæŽ¥æ³•" style="zoom:60%;" />
 
+å®žéªŒå™¨æ
 
-ÊµÑéÆ÷²Ä
+* [ ] æˆ˜èˆ°STM32F103å¼€å‘æ¿V3ç‰ˆæœ¬
 
-* [ ] Õ½½¢STM32F103¿ª·¢°åV3°æ±¾
+ç¡¬ä»¶èµ„æº
 
-Ó²¼þ×ÊÔ´
+* [ ] DS0(è¿žæŽ¥åœ¨PB5)
+* [ ] ä¸²å£1(æ³¢ç‰¹çŽ‡:115200,PA9/PA10è¿žæŽ¥åœ¨æ¿è½½USBè½¬ä¸²å£èŠ¯ç‰‡CH340ä¸Šé¢)
+* [ ] ALIENTEK 2.8/3.5/4.3/7å¯¸TFTLCDæ¨¡å—(é€šè¿‡FSMCé©±åŠ¨,FSMC_NE4æŽ¥LCDç‰‡é€‰/A10æŽ¥RS)
+* [ ] KEY0æŒ‰é”®(è¿žæŽ¥åœ¨PE4)/KEY1æŒ‰é”®(è¿žæŽ¥åœ¨PE3) 
 
-* [ ] DS0(Á¬½ÓÔÚPB5)
-* [ ] ´®¿Ú1(²¨ÌØÂÊ:115200,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-* [ ] ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýFSMCÇý¶¯,FSMC_NE4½ÓLCDÆ¬Ñ¡/A10½ÓRS)
-* [ ] KEY0°´¼ü(Á¬½ÓÔÚPE4)/KEY1°´¼ü(Á¬½ÓÔÚPE3) 
-
-> ÊµÑéÏÖÏó:
-> ±¾ÊµÑé¿ª»úºó,ÏÈÏÔÊ¾Ò»Ð©ÌáÊ¾ÐÅÏ¢£¬È»ºóÔÚÖ÷Ñ­»·ÀïÃæ¼ì²âÁ½¸ö°´¼ü£¬ÆäÖÐ1¸ö°´¼ü£¨KEY1£©ÓÃÀ´Ö´ÐÐÐ´ÈëFLASHµÄ²Ù×÷£¬ÁíÍâÒ»¸ö°´¼ü£¨KEY0£©ÓÃÀ´Ö´ÐÐ¶Á³ö²Ù×÷£¬ÔÚTFTLCDÄ£¿éÉÏÏÔÊ¾Ïà¹ØÐÅÏ¢¡£Í¬Ê±ÓÃDS0ÌáÊ¾³ÌÐòÕýÔÚÔËÐÐ¡£ÁíÍâ,±¾ÊµÑé¿ÉÒÔ½èÖúUSMARTµ÷ÊÔ¡£²»¹ýÇÐ¼ÇÐ´ÈëµØÖ·²»Òª°ÑÓÃ»§´úÂëÇø¸øÐ´ÁË£¬·ñÔò¿ÉÄÜËÀ»ú¡£
+> å®žéªŒçŽ°è±¡:
+> æœ¬å®žéªŒå¼€æœºåŽ,å…ˆæ˜¾ç¤ºä¸€äº›æç¤ºä¿¡æ¯ï¼Œç„¶åŽåœ¨ä¸»å¾ªçŽ¯é‡Œé¢æ£€æµ‹ä¸¤ä¸ªæŒ‰é”®ï¼Œå…¶ä¸­1ä¸ªæŒ‰é”®ï¼ˆKEY1ï¼‰ç”¨æ¥æ‰§è¡Œå†™å…¥FLASHçš„æ“ä½œï¼Œå¦å¤–ä¸€ä¸ªæŒ‰é”®ï¼ˆKEY0ï¼‰ç”¨æ¥æ‰§è¡Œè¯»å‡ºæ“ä½œï¼Œåœ¨TFTLCDæ¨¡å—ä¸Šæ˜¾ç¤ºç›¸å…³ä¿¡æ¯ã€‚åŒæ—¶ç”¨DS0æç¤ºç¨‹åºæ­£åœ¨è¿è¡Œã€‚å¦å¤–,æœ¬å®žéªŒå¯ä»¥å€ŸåŠ©USMARTè°ƒè¯•ã€‚ä¸è¿‡åˆ‡è®°å†™å…¥åœ°å€ä¸è¦æŠŠç”¨æˆ·ä»£ç åŒºç»™å†™äº†ï¼Œå¦åˆ™å¯èƒ½æ­»æœºã€‚
