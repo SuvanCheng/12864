@@ -4,9 +4,7 @@
 
 ##  串行接法
 
-![](/reference/串行接法.png)
-
-<img src="/Users/allen/Documents/GitHub/12864/reference/串行接法.png" alt="串行接法" style="zoom:60%;" />
+<img src="reference/串行接法.png" style="zoom:60%;" />
 
 实验器材
 
